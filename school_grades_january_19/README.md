@@ -6,12 +6,13 @@
 Input: a string of csv: e.g.'Green, Amber, Red, Green' (case insensitive)
 Output: "Green: 2\nAmber: 1\nRed: 2"
 
-Input                               | Output
-" "                                 | raise error/exception ['no grades found']  
-"Red"                               | "Red: 1
-"Green, Red"                        | "Green: 1\nRed: 1"
-"Green, Green, Amber, Red, Red"     | "Green: 2\nAmber: 1\nRed: 2"
+| Input                           | Output                                    |
+|---------------------------------|-------------------------------------------|
+| " "                             | raise error/exception ['no grades found'] |
+| "Red"                           | "Red: 1"                                  |
+| "Green, Red"                    | "Green: 1\nRed: 1"                        |
+| "Green, Green, Amber, Red, Red" | "Green: 2\nAmber: 1\nRed: 2"              |
 
 Outlier
-* there can be a space between commas -> to account for;
+There can be a space between commas -> to account for;
 
