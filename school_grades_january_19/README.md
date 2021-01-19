@@ -5,7 +5,7 @@
 
 
 
-| Input (Comma separated string)  | Output                                    |
+| Input (Comma Separated String)  | Output (Sting)                            |
 |---------------------------------|-------------------------------------------|
 | " "                             | raise error/exception ['no grades found'] |
 | "Red"                           | "Red: 1"                                  |
