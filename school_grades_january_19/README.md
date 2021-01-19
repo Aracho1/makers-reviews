@@ -3,10 +3,9 @@
 * The client is a school reports company who helps teachers find out how the students did on tests
 * Based on a string of test results, the program should return a simple report of student performances 
 
-Input: a string of csv: e.g.'Green, Amber, Red, Green' (case insensitive)
-Output: "Green: 2\nAmber: 1\nRed: 2"
 
-| Input                           | Output                                    |
+
+| Input (Comma separated string)  | Output                                    |
 |---------------------------------|-------------------------------------------|
 | " "                             | raise error/exception ['no grades found'] |
 | "Red"                           | "Red: 1"                                  |
